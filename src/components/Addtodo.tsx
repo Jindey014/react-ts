@@ -5,8 +5,8 @@ const Addtodo = () => {
 
   const SubmitHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    setTodo('')
   }
-
 
   return (
     <form onSubmit={SubmitHandler}>
