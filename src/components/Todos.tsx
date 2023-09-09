@@ -1,5 +1,5 @@
 const Todos = () => {
-  return <div>Todos</div>
+  return <div>Display Todos</div>
 }
 
 export default Todos
